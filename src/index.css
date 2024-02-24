@@ -40,3 +40,26 @@ a {
   background: #212ea0;
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* below for the medai queries  */
+
+@media (max-width: 1200px) {
+    .container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .btn {
+      padding: 7px 15px;
+    }
+}

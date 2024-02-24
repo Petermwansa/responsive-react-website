@@ -52,3 +52,50 @@
 .user__info h3 {
     color: #212ea0;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* below for the medai queries  */
+
+@media (max-width: 800px) {
+    .testimonials {
+        padding: 0 40px;
+    }
+    .next__btn, .back__btn {
+        padding: 10px;
+        width: 35px;
+    }
+    .testimonials ul li {
+        padding: 10px;
+    }
+    .slide {
+        padding: 10px;
+    }
+    .slide img {
+        width: 50px;
+        border: 2px solid #212ea0;
+    }
+    
+}
+
+@media (max-width: 620px) {
+    .user__info {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user__info h3 {
+        font-size: 16px;
+    }
+    .slider p {
+        font-size: 12px;
+    }
+}

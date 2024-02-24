@@ -11,3 +11,30 @@
     display: inline-block;
     margin-left: 20px;
 }
+
+
+
+
+
+
+/* the media queries  */
+
+
+@media (max-width: 800px) {
+    .footer {
+        display: block;
+        text-align: center;
+        margin: 5px auto;
+        padding: 10px 0;
+    }
+    .footer ul li {
+        margin: 10px;
+        font-size: 15px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+}

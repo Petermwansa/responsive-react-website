@@ -51,3 +51,23 @@
     margin: 20px 0;
     
 }
+
+
+
+
+
+
+
+
+
+
+/* media quesries  */
+
+@media (max-width: 720px) {
+    .contact {
+        display: block;
+    }
+    .contact__col {
+        padding: 20px;
+    }
+}

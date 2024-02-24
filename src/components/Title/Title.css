@@ -12,3 +12,18 @@
     margin-top: 10px;
     text-transform: none;
 }
+
+
+
+
+/* the media queries  */
+
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 13px;
+    }
+    .title h2 {
+        font-size: 25px;
+    }
+}
